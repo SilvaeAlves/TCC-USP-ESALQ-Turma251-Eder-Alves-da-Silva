@@ -1,0 +1,1 @@
+{"modelo": "gb", "CV": 1.028934729988802, "n": 18, "params": {"learning_rate": 0.05, "max_depth": 4, "n_estimators": 200, "subsample": 0.8}, "RMSE": 0.6962261181795122, "MAE": 0.509529221594754, "R2": 0.8639262716091611, "seg": 31.3}

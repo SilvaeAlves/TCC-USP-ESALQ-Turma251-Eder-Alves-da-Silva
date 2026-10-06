@@ -1,0 +1,1 @@
+{"modelo": "rf", "CV": 1.155034465372298, "n": 9, "params": {"max_features": 1.0, "min_samples_leaf": 1, "n_estimators": 300}, "RMSE": 0.716319444848772, "MAE": 0.5230985119047624, "R2": 0.8559586633701592, "seg": 36.7}

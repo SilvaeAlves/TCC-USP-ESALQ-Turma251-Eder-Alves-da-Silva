@@ -1,0 +1,14 @@
+# dados da equipe: NUNCA versionar
+dados/*
+!dados/README.md
+*.pds
+*.csv
+!resultados/*.csv
+# documentos e artefatos locais
+*.docx
+*.pptx
+*.jsonl
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.venv/
