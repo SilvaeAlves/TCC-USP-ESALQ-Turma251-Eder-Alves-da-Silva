@@ -1,5 +1,5 @@
-# Versões com que a Tabela 4 é reproduzida exatamente (Python 3.12)
-numpy==1.26.4
-pandas==2.2.2
-scikit-learn==1.5.1
-matplotlib==3.9.2
+# Versões citadas no TCC (Python 3.12.3); reproduzem a Tabela 4 exatamente
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib>=3.9
