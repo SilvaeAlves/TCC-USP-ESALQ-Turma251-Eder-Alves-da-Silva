@@ -55,7 +55,7 @@ python src/03_ajuste_hiperparametros.py gb 800    # Tabela 2, um modelo por vez:
 | Árvore de decisão | 1,501 ± 0,300 | 0,960 | 0,585 | 36,9% |
 | Mediana por condutor-setor | 2,381 ± 0,312 | 1,446 | −0,013 | — |
 
-Reexecução com scikit-learn 1.9.1: a rede neural, o Random Forest, a regressão linear e a referência reproduzem os valores exatamente. O Gradient Boosting e a árvore variam na terceira casa decimal (GB: 1,011), por diferenças de implementação entre versões.
+Com as versões fixadas em `requirements.txt` (Python 3.12.3, scikit-learn 1.8.0, pandas 3.0.2, numpy 2.4.4 — as mesmas citadas no texto), `02_avalia_10_particoes.py` reproduz a Tabela 4 exatamente. Em versões mais novas do scikit-learn, o Gradient Boosting e a árvore de decisão podem variar na terceira casa decimal.
 
 ## Dados
 
